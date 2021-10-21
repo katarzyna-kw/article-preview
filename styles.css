@@ -15,8 +15,8 @@ section {
 
 .top {
    margin-top: 50px;
-   border-top-left-radius: 3%;
-   border-top-right-radius: 3%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 .anchor-img-container {
@@ -51,6 +51,51 @@ p {
    color:hsl(214, 17%, 51%);
    padding: 5px 30px 20px 30px;
    margin: 0px;
+}
+
+.bottom {
+   margin-top: 0;
+   padding-bottom: .6rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.user {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.user-avatar {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.user-info {
+   padding-left: 0;
+}
+
+.user-info > h2 {
+   margin-bottom: 0;
+   padding: 0rem 0 0 .7rem;
+}
+.user-info > p {
+   margin-top: 0;
+   padding: 0 0 .5rem .7rem;
+}
+
+.user-info > h2, p {
+   font-size: .8rem;
+}
+
+.icon-share-background {
+   background-color:hsl(210, 46%, 95%);
+   padding: 7px;
+   border-radius: 50%;
 }
 
 footer {
