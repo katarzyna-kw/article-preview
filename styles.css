@@ -55,10 +55,10 @@ p {
 
 .bottom {
    margin-top: 0;
-   padding-bottom: .6rem;
+   padding: 0 1.8rem .6rem 1.8rem;
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
 }
@@ -112,17 +112,16 @@ p {
 .share {
    background-color:hsl(217, 19%, 35%);
    margin-top: 0;
-   padding-top: .6rem;
-   padding-bottom: .6rem;
+   padding: .6rem 1.8rem .6rem 1.8rem;
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
 }
 
 .share-social-icons {
-   flex-basis: 60%;
+   flex-basis: 75%;
    display: flex;
    justify-content: space-around;
    align-content: center;
