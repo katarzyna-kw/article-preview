@@ -61,6 +61,7 @@ p {
    justify-content: space-between;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
+   min-height: 47px;
 }
 
 .user {
@@ -111,6 +112,7 @@ p {
 
 .share {
    background-color:hsl(217, 19%, 35%);
+   min-height: 47px;
    margin-top: 0;
    padding: .6rem 1.8rem .6rem 1.8rem;
    display: flex;
