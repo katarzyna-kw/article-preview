@@ -8,22 +8,19 @@ main {
    width: 90%;
    margin: auto;
    max-width: 25.5rem;
-}
-
-section {
    background-color: #fff;
-}
-
-.top {
-   margin-top: 50px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 .anchor-img-container {
+   margin-top: 50px;
    width: 100%;
    height: 192px;
    overflow: hidden;
+   margin-bottom: -13px;
 }
 
 .anchor-img {
@@ -32,6 +29,10 @@ section {
    object-fit: cover;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
+}
+
+.top {
+   margin-top: 0;
 }
 
 h1, h2 {
@@ -45,7 +46,6 @@ h1 {
 }
 
 p {
-   width: 79%;
    line-height: 1.25rem;
    letter-spacing: .01rem;
    font-size: .79rem;
@@ -142,11 +142,13 @@ p {
    font-weight: 700;
 }
 
-
 footer {
-   margin-top: 50px;
+   margin-top: 40px;
    text-align: center;
+   font-size: .6rem;
+   margin-bottom: 0;
 }
+
 footer a {
    text-decoration: none;
    color:hsl(217, 19%, 35%);
@@ -154,4 +156,72 @@ footer a {
 
 .closed {
    display: none;
+}
+
+@media (min-width: 768px) {
+   body {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+   }
+
+   main {
+      max-width: 43rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+   }
+
+   .anchor-img-container {
+      margin: 0;
+      flex-grow: 1;
+      height: 270px;
+      overflow: hidden;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+   }
+   
+   .anchor-img {
+      width: 340px;  
+      height: auto;
+      object-fit: cover;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      margin: 0px 0px;
+   }
+
+   .content-container {
+      margin-top: 0;
+      flex-grow: 2;
+   }
+
+   .top {
+      padding: 0 0 0 .7rem;
+   }
+
+   h1 {
+      font-size: 1.2rem;
+      margin-top: 0;
+      padding-top: 1.7rem;
+      font-weight: 700;
+   }
+
+   .top > p {
+      margin: 0;
+   }
+
+   .bottom {
+      padding: 0 40px 0rem 40px;
+   }
+
+   footer {
+      font-size: .7rem;
+      width: 100%;
+      flex-shrink:0;
+   }
+   
+
 }
