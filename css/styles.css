@@ -231,6 +231,14 @@ footer a {
       display: none;
    }
 
+   .share-social-icons {
+      flex-basis: 100%;
+      /* display: flex;
+      justify-content: space-around;
+      align-content: center; */
+   }
+   
+
 
    footer {
       font-size: .7rem;
