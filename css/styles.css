@@ -217,11 +217,24 @@ footer a {
       padding: 0 40px 0rem 40px;
    }
 
+   .share {
+      position: absolute;
+      width: 200px;
+      min-height: 35px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      top: 270px;
+      right: 200px;
+   }
+
+   .share-arrow {
+      display: none;
+   }
+
+
    footer {
       font-size: .7rem;
       width: 100%;
       flex-shrink:0;
    }
-   
-
 }

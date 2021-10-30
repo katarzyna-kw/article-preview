@@ -2,11 +2,10 @@ const shareSection = document.getElementById("share");
 const userSection = document.getElementById("user")
 
 const showShare = () => {
-      userSection.classList.add("closed")
-      shareSection.classList.remove("closed")
+      shareSection.classList.toggle("closed")
 }
 
 const doNotShow = () => {
-   shareSection.classList.add("closed");
-   userSection.classList.remove("closed");
+   shareSection.classList.toggle("closed");
+   userSection.classList.toggle("closed");
 }
