@@ -227,6 +227,16 @@ footer a {
       right: 200px;
    }
 
+   .share::after {
+      content: " ";
+      position: absolute;
+      right: 120px;
+      bottom: -15px;
+      border-top: 15px solid hsl(217, 19%, 35%);
+      border-right: 15px solid transparent;
+      border-left: 15px solid transparent;
+   }
+
    .share-arrow {
       display: none;
    }
