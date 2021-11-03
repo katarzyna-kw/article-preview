@@ -15,6 +15,10 @@ main {
    border-bottom-right-radius: 10px;
 }
 
+.content-container {
+   position: relative;
+}
+
 .anchor-img-container {
    margin-top: 50px;
    width: 100%;
@@ -54,7 +58,7 @@ p {
    margin: 0px;
 }
 
-.article-author {
+.article-footer {
    margin-top: 0;
    padding: 0 1.8rem .6rem 1.8rem;
    display: flex;
@@ -65,32 +69,32 @@ p {
    min-height: 47px;
 }
 
-.article-author__container {
+.article-footer__container {
    display: flex;
    align-items: center;
    justify-content: flex-start;
 }
 
-.article-author__avatar {
+.article-footer__avatar {
    width: 40px;
    height: 40px;
    border-radius: 50%;
 }
 
-.article-author__attribution {
+.article-footer__attribution {
    padding-left: 0;
 }
 
-.article-author__attribution > h2 {
+.article-footer__attribution > h2 {
    margin-bottom: 0;
    padding: 0rem 0 0 .7rem;
 }
-.article-author__attribution > p {
+.article-footer__attribution > p {
    margin-top: 0;
    padding: 0 0 .5rem .7rem;
 }
 
-.article-author__attribution > h2, p {
+.article-footer__attribution > h2, p {
    font-size: .8rem;
 }
 
@@ -99,7 +103,7 @@ p {
    border-radius: 50%;
 }
 
-.article-author > .share-icon-background {
+.article-footer > .share-icon-background {
    background-color:hsl(210, 46%, 95%);
 }
 
@@ -159,7 +163,7 @@ footer a {
    display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 830px) {
    body {
       display: flex;
       flex-flow: row wrap;
@@ -214,7 +218,8 @@ footer a {
       margin: 0;
    }
 
-   .article-author {
+   .article-footer {
+      position: relative;
       padding: 0 40px 0rem 40px;
    }
 
@@ -224,8 +229,9 @@ footer a {
       min-height: 35px;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
-      top: 270px;
-      right: 200px;
+      top: 124px;
+      left: 245px;   
+
    }
 
    .article-popup::after {
