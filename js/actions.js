@@ -1,5 +1,5 @@
 const shareSection = document.getElementById("share");
-const userSection = document.getElementById("user")
+const authorSection = document.getElementById("article-author")
 
 const showShare = () => {
       shareSection.classList.toggle("closed")
