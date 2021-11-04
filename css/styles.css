@@ -265,12 +265,12 @@ footer a {
 
    .article-footer > .share-icon-background:hover {
       background-color: hsl(214, 17%, 51%);
-      /* background-color: hotpink; */
    }
 
    .article-footer > .share-icon-background:hover > img {
       filter: brightness(0) invert(1);
    }
+
    
    footer {
       font-size: .7rem;
