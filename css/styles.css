@@ -125,6 +125,11 @@ p {
    justify-content: space-between;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
+   visibility: hidden;
+   opacity: 0;
+   z-index: -1;
+   top: -50%;
+   transition: all .4s ease-in-out;
 }
 
 .article-popup__icons {
@@ -159,8 +164,12 @@ footer a {
    color:hsl(217, 19%, 35%);
 }
 
-.closed {
-   display: none;
+.open {
+   /* display: none; */
+   visibility: visible;
+   opacity: 1;
+   z-index: 200;
+   top: 50%;
 }
 
 @media (min-width: 830px) {

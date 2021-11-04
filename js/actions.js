@@ -3,10 +3,10 @@ const authorSection = document.getElementById("article-author");
 
 
 const showShare = () => {
-      shareSection.classList.toggle("closed")
+      shareSection.classList.toggle("open")
 
 }
 
 const doNotShow = () => {
-   shareSection.classList.toggle("closed");
+   shareSection.classList.toggle("open");
 }
