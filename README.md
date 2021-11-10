@@ -45,6 +45,7 @@ Users should be able to:
 
 - [CSS-Tricks.com](https://css-tricks.com/almanac/properties/p/position/) - This was a helpful resource for using positioning to code the design prototypes.
 - [Animating CSS Popup](https://www.loginradius.com/blog/async/animating-simple-css-popup-tutorial/) - This was a helpful tutorial for animating popups.
+- [Normalize CSS](hhttps://necolas.github.io/normalize.css/)
 
 
 ## Author
