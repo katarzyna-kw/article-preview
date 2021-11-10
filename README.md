@@ -1,4 +1,4 @@
-<!-- readme file t-->
+<!-- deploy to ghpages  -->
 
 # Frontend Mentor - Article preview component solution
 
