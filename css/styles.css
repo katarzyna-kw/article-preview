@@ -150,12 +150,14 @@ main {
    height: 20px;
 }
 
-.content__article-popup-icons > span {
+.content__article-popup-icons > h4 {
    color:hsl(214, 17%, 51%);
    font-size: .85rem;
    letter-spacing:.3rem;
    font-weight: 700;
    text-transform: uppercase;
+   margin-block-start: 0;
+   margin-block-end: 0;
 }
 
 footer {
