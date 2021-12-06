@@ -1,11 +1,19 @@
+html {
+   --darkest-gray: hsl(217, 19%, 35%);
+   --dark-gray: hsl(214, 17%, 51%);
+   --med-gray: hsl(212, 23%, 69%);
+   --light-gray: hsl(210, 46%, 95%);
+   --white: hsl(0, 0%, 100%); 
+}
+
 body {
    font-family: 'Manrope', sans-serif;
    font-size: 13px;
-   background-color: hsl(210, 46%, 95%);
+   background-color: var(--light-gray);
 }
 
 h1, h2 {
-   color: hsl(217, 19%, 35%);
+   color: var(--darkest-gray);
    padding: 20px 30px 10px 30px;
 }
 
@@ -18,7 +26,7 @@ p {
    line-height: 1.25rem;
    letter-spacing: .01rem;
    font-size: .79rem;
-   color:hsl(214, 17%, 51%);
+   color: var(--dark-gray);
    padding: 5px 30px 20px 30px;
    margin: 0px;
 }
@@ -27,7 +35,7 @@ main {
    width: 90%;
    margin: auto;
    max-width: 25.5rem;
-   background-color: #fff;
+   background-color: var(--white);
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
    border-bottom-left-radius: 10px;
@@ -107,11 +115,11 @@ main {
 }
 
 .content__article-footer > .share-icon-background {
-   background-color:hsl(210, 46%, 95%);
+   background-color:var(--light-gray);
 }
 
 .content__article-popup > .share-icon-background {
-   background-color: hsl(214, 17%, 51%);
+   background-color: var(--dark-gray);
 }
 
 .content__article-popup > .share-icon-background > img {
@@ -120,7 +128,7 @@ main {
 
 .content__article-popup {
    position: absolute;
-   background-color:hsl(217, 19%, 35%);
+   background-color: var(--darkest-gray);
    min-height: 47px;
    margin-top: 0;
    padding: .6rem 1.8rem .6rem 1.8rem;
@@ -151,7 +159,7 @@ main {
 }
 
 .content__article-popup-icons > h4 {
-   color:hsl(214, 17%, 51%);
+   color: var(--dark-gray);
    font-size: .85rem;
    letter-spacing:.3rem;
    font-weight: 700;
@@ -169,14 +177,13 @@ footer {
 
 footer a {
    text-decoration: none;
-   color:hsl(217, 19%, 35%);
+   color: var(--darkest-gray);
 }
 
 .open {
    visibility: visible;
    opacity: 1;
    z-index: 200;
-   /* top: 0; */
 }
 
 @media (min-width: 830px) {
@@ -243,7 +250,7 @@ footer a {
    }
 
    .content__article-footer > .share-icon-background:hover {
-      background-color: hsl(214, 17%, 51%);
+      background-color: var(--dark-gray);
    }
 
    .content__article-footer > .share-icon-background:hover > img {
@@ -266,7 +273,7 @@ footer a {
       position: absolute;
       right: 120px;
       bottom: -15px;
-      border-top: 15px solid hsl(217, 19%, 35%);
+      border-top: 15px solid var(--darkest-gray);
       border-right: 15px solid transparent;
       border-left: 15px solid transparent;
    }
